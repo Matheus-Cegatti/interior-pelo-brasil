@@ -150,6 +150,10 @@ body {
     
 }
 
+.rodape {
+    background-color: #316B83 ;
+}
+
 .imagem-rodape {
     display: block;
     margin: 0 auto;
@@ -161,6 +165,7 @@ body {
     font-family: 'Mukta', sans-serif;
     text-align: center;
     font-size: 0.7rem;
+    color: #F8F0DF;
 }
 
 /* .material-icons:hover {
