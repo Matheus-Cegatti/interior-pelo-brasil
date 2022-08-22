@@ -5,7 +5,7 @@ body {
 
 
 .principal {
-    background: #354259;
+    background: #141D37;
     
 }
 .cabecalho {
@@ -40,6 +40,10 @@ body {
     color: #CDC2AE;
     font-size: 2rem;
     text-decoration: underline;
+}
+
+.cidades {
+    padding-bottom: 0.5rem;
 }
 
 .titulo-principal {
@@ -83,6 +87,7 @@ body {
 
 .dados {
     background-color: #EFEAD8;
+    padding-top: 0.5rem;
 }
 
 .dados-cartao {
@@ -104,18 +109,30 @@ body {
     background-color: #F3F0D7
 }
 
+.material-icons {
+    text-align: center;
+    margin-top: 0.8rem;
+    color: #766161;
+}
+
 .titulo-cartao {
     font-weight: 700;
     font-size: 1.3rem;
     text-align: center;
     padding: 1rem 0;
     margin: 0.5rem 0;
-    border-bottom: 1px solid #B2B8A3
+    border-bottom: 1px solid #B2B8A3;
+    color: #7B6079;
 }
 
 .conteudo-dados {
-    padding: 0.2rem 3rem;
+    padding: 0.2rem 2rem;
     margin-bottom: 0.5rem;
+}
+
+.texto-cartao {
+    font-family: 'Mukta', sans-serif;
+    line-height: 30px;
 }
 
 /* .material-icons:hover {
