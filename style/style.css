@@ -144,8 +144,23 @@ body {
 }
 
 .imagem-credito {
+    display: inline-block;
+    margin-left: 48%;
+    padding-bottom: 0.4rem;
+    
+}
+
+.imagem-rodape {
     display: block;
     margin: 0 auto;
+    width: 10%;
+    padding: 2rem;
+}
+
+.texto-rodape {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-size: 0.7rem;
 }
 
 /* .material-icons:hover {
