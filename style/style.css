@@ -51,16 +51,31 @@ body {
 
 .imagens-cidades {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     margin-top: 1.5em;
-}
-.teste {
-    width: 100%;
-}
-.imagens{
     
-    width: 20vw;
+}
+
+
+.imagens{
+       width: 200px;
+        height: 280px;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    color: #C2DED1;
+    padding: 0.5rem;
+}
+
+.cidade:hover {
+    color: #68A7AD;
+    cursor: pointer;
+    font-size: 1.2rem;
 }
 
 
