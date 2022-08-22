@@ -134,6 +134,19 @@ body {
     font-family: 'Mukta', sans-serif;
     line-height: 30px;
 }
+.texto-credito {
+    text-align: center;
+    margin-bottom: 0.4rem;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+.imagem-credito {
+    display: block;
+    margin: 0 auto;
+}
 
 /* .material-icons:hover {
     cursor: pointer;
