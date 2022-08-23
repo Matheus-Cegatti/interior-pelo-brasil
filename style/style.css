@@ -17,21 +17,6 @@ body {
 
 }
 
-
-#icone-principal {
-    margin-left: 50%;
-    color: #F7ECDE
-}
-
-#icone-principal:hover{
-    cursor: pointer;
-}
-
-#icone-principal:active {
-    color: #80558C;
-    font-size: 1.2rem;
-}
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
