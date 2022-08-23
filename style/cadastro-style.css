@@ -1,19 +1,19 @@
 body {
     background-color: #CDC2AE;
-    
+
 }
 
 
 .principal {
     background: #8E806A;
-       
+
 }
 
 
 .menu-desativado {
     top: -100vh;
     position: absolute;
-    
+
 
 }
 
@@ -23,7 +23,7 @@ body {
     color: #F7ECDE
 }
 
-.material-icons:hover{
+.material-icons:hover {
     cursor: pointer;
 }
 
@@ -44,8 +44,8 @@ body {
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: #316B83;
-    margin-top: 0.7rem;
-    
+    margin-bottom: 3rem;
+
 }
 
 .logo {
@@ -74,10 +74,63 @@ body {
     text-decoration: underline;
 }
 
+.ficha-cadastro {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 50rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #F3F0D7;
+
+
+
+}
+
+.cadastros {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
 .cadastro-label {
     font-size: 0.8rem;
     font-family: 'Mukta', sans-serif;
     font-style: italic;
     font-weight: 600;
+
+}
+
+.input {
+    box-sizing: border-box;
+    /* border-bottom: 1px solid #11324D; */
+    padding: 0.5rem 0.5rem 0.2rem 0;
+    height: 3.25rem;
+    width: 100%;
+}
+
+
+
+.botao-submit {
+    border-radius: 7px;
+    border: 0.5px solid #11324D;
+    width: 7rem;
+    padding: 0.2rem 0.7rem;
+    background-color: #F3F0D7;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    color: #5D534A;
+    margin-left: 50%;
 
 }

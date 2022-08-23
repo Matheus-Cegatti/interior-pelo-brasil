@@ -44,17 +44,17 @@
                 </nav>
             </div>
         </div>
-        <main>
-            <section>
+        <main class="ficha-cadastro">
+            <section class="formulario">
                 <h1 class="titulo-cadastro">Cadastro de Cidades</h1>
                 <form action="../Imagens/Logotipo Cidades do interior.png">
-                    
-                    <div>
+
+                    <div class="cadastros">
                         <input class="input" type="text" name="cidade" required placeholder="Cidade">
-                        <label class="cadastro-label" for="cidade">Cidade</label>
+                        <label class="cadastro-label cidade-label" for="cidade">Cidade</label>
                     </div>
-                    <div>
-                        <label class="cadastro-label">Estado</label>
+                    <div class="cadastros">
+                        <label cadastro-label>Estado</label>
                         <select name="" id="estado-escolha">
                             <option value="">SP</option>
                             <option value="">PR</option>
@@ -62,11 +62,12 @@
                             <option value="">RS</option>
                             <option value="">AM</option>
                         </select>
-                        </div>
-                  <label>Principais caracteristicas da cidade</label>
-                  <textarea name="" id="" cols="30" rows="10" width="23rem"></textarea>     
-                  <button type="submit">Enviar</button> 
-
+                    </div>
+                    <div class="cadastros">
+                        <label>Principais caracteristicas da cidade</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="botao-submit" type="submit">Enviar</button>
                 </form>
 
             </section>
