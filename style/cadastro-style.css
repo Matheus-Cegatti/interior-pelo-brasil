@@ -123,10 +123,11 @@ body {
 
 .input {
     box-sizing: border-box;
-    /* border-bottom: 1px solid #11324D; */
+    border: 1px solid gray;
     padding: 1rem 0.5rem 0.2rem 0.3rem;
     height: 3.25rem;
     width: 100%;
+    border-radius: 7px;
     
 }
 
@@ -138,14 +139,20 @@ body {
     outline: none;
 }
 
-.input:placeholder-shown {
-    border: 2px solid #6E7582;
-}
-
 .input:not(:placeholder-shown) + .cidade-label, .input:focus + .cidade-label {
     font-size: 0.875rem;
     top: 0.25rem;
     transition: all 0.7s;
+}
+
+.estado-label {
+    margin-left: 3rem;
+}
+
+#estado-escolha{
+    width: 20%;
+    border-radius: 7px;
+    text-align: center;
 }
 
 
@@ -161,3 +168,24 @@ body {
     margin-left: 50%;
 
 }
+
+.cidade-texto {
+    margin-left: 0.8rem;
+
+}
+
+.botao-submit:hover{
+    cursor: pointer;
+    background-color:#EAE3C8 ;
+    font-size: 1.1rem;
+    box-shadow: 2px 2px 4px 3px #C2B092;
+}
+
+.botao-submit:active {
+    background-color: #C8C6A7;
+}
+
+.area-texto {
+    border-radius: 7px;
+}
+
