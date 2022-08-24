@@ -30,7 +30,7 @@ function proxImagem() {
     setInterval(function() {
         
         proxImagem()
-    }, 2000)
+    }, 3500)
 
 
 
