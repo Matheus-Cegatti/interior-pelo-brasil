@@ -128,7 +128,7 @@ body {
     height: 3.25rem;
     width: 100%;
     border-radius: 7px;
-    
+
 }
 
 .input::placeholder {
@@ -139,7 +139,8 @@ body {
     outline: none;
 }
 
-.input:not(:placeholder-shown) + .cidade-label, .input:focus + .cidade-label {
+.input:not(:placeholder-shown)+.cidade-label,
+.input:focus+.cidade-label {
     font-size: 0.875rem;
     top: 0.25rem;
     transition: all 0.7s;
@@ -149,7 +150,7 @@ body {
     margin-left: 3rem;
 }
 
-#estado-escolha{
+#estado-escolha {
     width: 20%;
     border-radius: 7px;
     text-align: center;
@@ -174,9 +175,9 @@ body {
 
 }
 
-.botao-submit:hover{
+.botao-submit:hover {
     cursor: pointer;
-    background-color:#EAE3C8 ;
+    background-color: #EAE3C8;
     font-size: 1.1rem;
     box-shadow: 2px 2px 4px 3px #C2B092;
 }
@@ -189,30 +190,32 @@ body {
     border-radius: 7px;
 }
 
-.carrossel-principal {
+.carrosel-principal {
     position: relative;
     padding: 1rem;
     max-width: 500px;
     margin: 0 auto;
 }
 
-.seta-esquerda,
-.seta-direita {
-
-}
-
 .galeria-principal {
-    overflow-x: auto;
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+
 }
 
-.galeria {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 15px;
-    width: 300px;
-  }
+.imagem-carrossel {
+    position: relative;
+}
 
-  .imagem {
+.imagem {
     width: 20vw;
-  }
-  
+    height: 33vh;
+    margin-left: 25%;
+    position: absolute;
+    opacity: 0;
+
+}
+.imagem-atual {
+    opacity: 1;
+}
