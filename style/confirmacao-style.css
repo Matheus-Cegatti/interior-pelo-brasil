@@ -1,0 +1,67 @@
+body {
+    background-color: #CDC2AE;
+    
+}
+
+
+.principal {
+    background: #79B4B7;
+    padding: 1.2rem;
+       
+}
+
+
+.menu-desativado {
+    top: -100vh;
+    position: absolute;
+    
+
+}
+
+
+.logo {
+    width: 10rem;
+    margin: 1rem;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.confirmacao-principal {
+    margin: 1.5rem 0;
+}
+
+.material-icons {
+    margin-left: 50rem;
+    cursor: pointer;
+    color: #5E454B;
+}
+
+.material-icons:hover {
+    font-size: 1.7rem;
+}
+
+.imagem-checked {
+    display: block;
+    margin: 0 auto;
+    width: 25vw;
+    height: 25vh;
+}
+
+.rodape {
+    background-color: #316B83 ;
+}
+
+.imagem-rodape {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding: 2rem;
+}
+
+.texto-rodape {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #F8F0DF;
+}
