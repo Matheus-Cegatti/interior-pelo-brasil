@@ -28,7 +28,8 @@ body {
     
 }
 
-.confirmacao-principal {
+.confirmacao-principal,
+.sessao-botao {
     margin: 0.5rem auto;
     width: 100%;
     max-width: 45rem;
@@ -37,6 +38,14 @@ body {
     padding: 2.5rem 1.5rem;
     text-align: center;
     display: block;
+}
+
+.confirmacao-principal {
+    margin-bottom: -1.5rem;
+}
+
+.sessao-botao {
+    margin-top: 0;
 }
 
 .confirmacao-fechada {
@@ -67,24 +76,6 @@ body {
     color: #DE8971;
     font-family: 'Kanit', sans-serif;
     font-weight: 700;
-}
-
-.rodape {
-    background-color: #316B83 ;
-}
-
-.imagem-rodape {
-    display: block;
-    margin: 0 auto;
-    width: 10%;
-    padding: 2rem;
-}
-
-.texto-rodape {
-    font-family: 'Mukta', sans-serif;
-    text-align: center;
-    font-size: 0.7rem;
-    color: #F8F0DF;
 }
 
 .btn {
