@@ -171,15 +171,15 @@ body {
 .imagem-rodape {
     display: block;
     margin: 0 auto;
-    width: 10%;
     padding: 2rem;
+    width: 10%;
 }
 
 .texto-rodape {
     font-family: 'Mukta', sans-serif;
     text-align: center;
-    font-size: 0.7rem;
     color: #F8F0DF;
+    font-size: 0.7rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -241,8 +241,15 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.rodape-responsivo {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .imagem-rodape{
-    width: 45%;
+    width: 30%;
 }
 
 .texto-rodape {
@@ -250,3 +257,16 @@ body {
 }
 
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .imagem-rodape {
+        width: 20%;
+    }
+
+    .texto-rodape {
+        font-size: 1.2rem;
+    }
+
+}
+
