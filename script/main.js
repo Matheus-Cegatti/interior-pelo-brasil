@@ -1,16 +1,43 @@
+function limpaCEP(cep) {
+    document.querySelector(".input-cep").value = " ";
+    
+}
+
 const preencheCadastro = (endereco) => {
     document.getElementById("cidade").value = endereco.localidade;  
     document.getElementById("estado-escolha").value = endereco.uf;
 }
+const cepSoNumeros = (numero) => /^[\d]+$/.test(numero);
+const cepValido = (cep) => cep.length == 8 && cepSoNumeros(cep);
+
+
 
 const buscaCep = async() => {
-    const cep = document.querySelector(".input-cep").value;
+    
+    
+    var cep = document.querySelector(".input-cep").value;
     const url = `http://viacep.com.br/ws/${cep}/json/`;
-
-    const dados = await fetch(url);
-    const endereco = await dados.json();
-    preencheCadastro(endereco)
-}
+    if (cepValido(cep)){
+    
+        const dados = await fetch(url);
+        const endereco = await dados.json();
+    
+        if(endereco.hasOwnProperty("erro")) {
+            alert("Cep não encontrado!")
+            limpaCEP()
+            
+        }else {
+            
+            preencheCadastro(endereco)
+        }
+    
+    }else {
+        alert("Cep invalido!")
+        limpaCEP()
+        
+    }
+    
+    }
 
 document.querySelector(".input-cep").addEventListener("focusout", buscaCep);
 
