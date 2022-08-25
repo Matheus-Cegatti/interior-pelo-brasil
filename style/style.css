@@ -1,6 +1,6 @@
 body {
     background-color: #CDC2AE;
-    
+
 }
 
 
@@ -182,6 +182,71 @@ body {
     color: #F8F0DF;
 }
 
-/* .material-icons:hover {
-    cursor: pointer;
-} */
+@media screen and (max-width: 768px) {
+
+
+    .principal{
+       
+        width: 100%;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+}
+
+.lista {
+    margin-bottom: 1.5rem;
+}
+
+.link-cabecalho {
+    font-size: 1.1rem
+}
+
+.cidades {
+    width: 100vw;
+    
+}
+
+.principal-reponsivo {
+    width: 100%;
+}
+
+.imagens-cidades{
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados {
+    width: 100vw;
+    
+}
+
+.dados-cartao {
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-credito {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.link-credito{
+    display: block;
+    margin-right: 3rem;
+    
+}
+
+.imagem-credito{
+    margin-bottom: 0.5rem;
+}
+
+.imagem-rodape{
+    width: 45%;
+}
+
+.texto-rodape {
+    font-size: 1.1rem;
+}
+
+}
