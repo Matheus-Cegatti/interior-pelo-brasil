@@ -114,6 +114,10 @@ body {
 
 }
 
+.input.input:not(:placeholder-shown){
+    background-color: #9ED2C6;
+}
+
 .cidade-label {
     position: absolute;
     top: 1.375rem;

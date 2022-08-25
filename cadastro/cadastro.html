@@ -51,42 +51,46 @@
             <h1 class="titulo-cadastro">Cadastro de Cidades</h1>
             <form action="file:///C:/Users/Matheus/Desktop/primeiro%20projeto%20mentoria/confirma%C3%A7%C3%A3o/confirmacao.html">
 
+
                 <div class="cadastros">
-                    <input class="input" type="text" name="cidade" required placeholder="Cidade">
+                    <input class="input input-cep" type="text" name="cep"  minlength="8" maxlength="8" required placeholder="CEP">
+                    <label class="cadastro-label cidade-label">CEP</label>
+                </div>
+
+                <div class="cadastros">
+                    <input class="input" id="cidade" type="text" name="cidade" required placeholder="Cidade">
                     <label class="cadastro-label cidade-label" for="cidade">Cidade</label>
                 </div>
                 <div class="cadastros">
                     <label class="cadastro-label estado-label">Estado</label>
-                    <select name="" id="estado-escolha">
-                        <option value="">AC</option>
-                        <option value="">AL</option>
-                        <option value="">AP</option>
-                        <option value="">AM</option>
-                        <option value="">BA</option>
-                        <option value="">CE</option>
-                        <option value="">DF</option>
-                        <option value="">ES</option>
-                        <option value="">GO</option>
-                        <option value="">MA</option>
-                        <option value="">MT</option>
-                        <option value="">MS</option>
-                        <option value="">MS</option>
-                        <option value="">MG</option>
-                        <option value="">PA</option>
-                        <option value="">PB</option>
-                        <option value="">PR</option>
-                        <option value="">PE</option>
-                        <option value="">PI</option>
-                        <option value="">RJ</option>
-                        <option value="">RN</option>
-                        <option value="">RS</option>
-                        <option value="">RO</option>
-                        <option value="">PE</option>
-                        <option value="">RR</option>
-                        <option value="">SC</option>
-                        <option value="">SP</option>
-                        <option value="">SE</option>
-                        <option value="">TO</option>
+                    <select id="estado-escolha" disabled required data-input>
+                        <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
 
 
 
