@@ -9,51 +9,16 @@ body {
 
 }
 
-
-.menu-desativado {
-    top: -100vh;
-    position: absolute;
-
-
-}
-
-
-.material-icons {
-    margin-left: 50%;
-    color: #F7ECDE
-}
-
-.material-icons:hover {
-    cursor: pointer;
-}
-
-.material-icons:active {
-    color: #80558C;
-    font-size: 1.2rem;
-}
-
 .cabecalho {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.titulo-cadastro {
-    font-weight: 700;
-    font-size: 2.5rem;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    color: #316B83;
-    margin-bottom: 3rem;
-
 }
 
 .logo {
-    width: 10rem;
     margin: 0 0 1rem 1.2rem;
+    width: 10rem;
 }
-
-
 
 .lista-cabecalho {
     display: inline;
@@ -61,11 +26,11 @@ body {
 }
 
 .link-cabecalho {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
     color: #F7ECDE;
     font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .link-cabecalho:hover {
@@ -75,63 +40,51 @@ body {
 }
 
 .ficha-cadastro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 1.5rem;
 }
 
 .formulario {
-    width: 100%;
-    max-width: 50rem;
-    padding: 2rem;
-    box-sizing: border-box;
-    border-radius: 7px;
     background-color: #F3F0D7;
     box-shadow: 3px 2px 7px 5px #A2B29F;
+    box-sizing: border-box;
+    border-radius: 7px;
+    max-width: 50rem;
+    padding: 2rem;
+    width: 100%;
+}
 
-
+.titulo-cadastro {
+    color: #316B83;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
 
 }
 
 .cadastros {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    box-sizing: border-box;
     margin-bottom: 1.2rem;
     position: relative;
 }
 
-.cadastro-label {
-    font-size: 0.8rem;
-    font-family: 'Mukta', sans-serif;
-    font-style: italic;
-    font-weight: 600;
-
-}
-
-.input.input:not(:placeholder-shown) {
-    background-color: #9ED2C6;
-}
-
-.cidade-label {
-    position: absolute;
-    top: 1.375rem;
-    left: 0.5rem;
-    transition: 1s;
-}
-
 .input {
-    box-sizing: border-box;
     border: 1px solid gray;
-    padding: 1rem 0.5rem 0.2rem 0.3rem;
-    height: 3.25rem;
-    width: 100%;
     border-radius: 7px;
+    box-sizing: border-box;
+    height: 3.25rem;
+    padding: 1rem 0.5rem 0.2rem 0.3rem;
+    width: 100%;
 
 }
 
@@ -150,28 +103,37 @@ body {
     transition: all 0.7s;
 }
 
+.input.input:not(:placeholder-shown) {
+    background-color: #9ED2C6;
+}
+
+.cadastro-label {
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+
+
+.cidade-label {
+    left: 0.5rem;
+    position: absolute;
+    top: 1.375rem;
+    transition: 1s;
+}
+
+
+
 .estado-label {
     margin-left: 3rem;
 }
 
 #estado-escolha {
-    width: 20%;
     border-radius: 7px;
     text-align: center;
-}
-
-
-.botao-submit {
-    border-radius: 7px;
-    border: 0.5px solid #11324D;
-    width: 7rem;
-    padding: 0.2rem 0.7rem;
-    background-color: #F3F0D7;
-    font-weight: 600;
-    font-family: 'Playfair Display', serif;
-    color: #5D534A;
-    margin: 0 40%;
-
+    width: 20%;
 }
 
 .cidade-texto {
@@ -179,26 +141,41 @@ body {
 
 }
 
+.area-texto {
+    border-radius: 7px;
+}
+
+.botao-submit {
+    background-color: #F3F0D7;
+    border: 0.5px solid #11324D;
+    border-radius: 7px;
+    color: #5D534A;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    margin: 0 40%;
+    padding: 0.2rem 0.7rem;
+    width: 7rem;
+
+}
+
 .botao-submit:hover {
-    cursor: pointer;
     background-color: #EAE3C8;
-    font-size: 1.1rem;
     box-shadow: 2px 2px 4px 3px #C2B092;
+    cursor: pointer;
+    font-size: 1.1rem;
 }
 
 .botao-submit:active {
     background-color: #C8C6A7;
 }
 
-.area-texto {
-    border-radius: 7px;
-}
+
 
 .carrosel-principal {
-    position: relative;
-    padding: 1rem;
-    max-width: 500px;
     margin: 0 auto;
+    max-width: 500px;
+    padding: 1rem;
+    position: relative;
 }
 
 .titulo-carrossel {
@@ -206,28 +183,27 @@ body {
 }
 
 .texto-carrossel {
-    text-align: center;
+    color: #3A6351;
+    font-family: 'Playfair Display', serif;
     font-size: 2.2rem;
     font-weight: 700;
     margin: 2rem 0;
-    color: #3A6351;
-    font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
 .galeria-principal {
+    height: 400px;
     margin: 0 auto;
     width: 800px;
-    height: 400px;
-
 }
 
 .imagem {
-    width: 20vw;
     height: 37vh;
     margin-left: 20%;
-    position: absolute;
     opacity: 0;
+    position: absolute;
     transition: opacity 700ms;
+    width: 20vw;
 
 }
 
@@ -244,15 +220,15 @@ body {
 .imagem-rodape {
     display: block;
     margin: 0 auto;
-    width: 10%;
     padding: 2rem;
+    width: 10%;
 }
 
 .texto-rodape {
-    font-family: 'Mukta', sans-serif;
-    text-align: center;
-    font-size: 0.7rem;
     color: #F8F0DF;
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.7rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -302,8 +278,8 @@ body {
     }
 
     .botao-submit {
-        margin: 0 auto;
         display: block;
+        margin: 0 auto;
     }
 
     .imagens-mes {
@@ -311,7 +287,7 @@ body {
     }
 
     .galeria-principal {
-        
+
         width: 100%;
     }
 
@@ -320,12 +296,10 @@ body {
     }
 
     .imagem {
-        width: 93%;
-        margin-left: 0;
         height: 30vh;
+        margin-left: 0;
+        width: 93%;
     }
-
-
 
     .imagem-rodape {
         width: 30%;
@@ -373,8 +347,8 @@ body {
     }
 
     .carrosel-principal {
-        display: flex;
         align-items: center;
+        display: flex;
         height: 50vh;
     }
 
@@ -383,17 +357,17 @@ body {
     }
 
     .galeria-principal {
-        width: 100%;
         height: 100%;
         position: relative;
+        width: 100%;
     }
 
     .imagem {
-        width: 25vw;
         height: 43vh;
+        margin: 1rem;
+        width: 25vw;
         /* bottom: 34%;
         left: -4%; */
-        margin: 1rem;
     }
 
     .imagem-rodape {
