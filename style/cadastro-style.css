@@ -231,6 +231,14 @@
     text-align: center;
 }
 
+.teste1 {
+    display: none;
+}
+
+.teste2 {
+    display: block;
+}
+
 @media screen and (max-width: 767px) {
 
 
@@ -359,7 +367,6 @@
         align-items: center;
         display: flex;
         height: 50vh;
-        /* padding-bottom: 2.5rem; */
         width: 100%;
     }
 

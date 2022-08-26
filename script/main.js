@@ -1,10 +1,10 @@
 function limpaCEP(cep) {
     document.querySelector(".input-cep").value = " ";
-    
+
 }
 
 const preencheCadastro = (endereco) => {
-    document.getElementById("cidade").value = endereco.localidade;  
+    document.getElementById("cidade").value = endereco.localidade;
     document.getElementById("estado-escolha").value = endereco.uf;
 }
 const cepSoNumeros = (numero) => /^[\d]+$/.test(numero);
@@ -12,36 +12,55 @@ const cepValido = (cep) => cep.length == 8 && cepSoNumeros(cep);
 
 
 
-const buscaCep = async() => {
-    
-    
+const buscaCep = async () => {
+
+
     var cep = document.querySelector(".input-cep").value;
     const url = `http://viacep.com.br/ws/${cep}/json/`;
-    if (cepValido(cep)){
-    
+    if (cepValido(cep)) {
+
         const dados = await fetch(url);
         const endereco = await dados.json();
-    
-        if(endereco.hasOwnProperty("erro")) {
+
+        if (endereco.hasOwnProperty("erro")) {
             alert("Cep não encontrado!")
             limpaCEP()
-            
-        }else {
-            
+            cep.length == 0
+
+        } else {
+
             preencheCadastro(endereco)
         }
-    
-    }else {
+
+    } else {
         alert("Cep invalido!")
         limpaCEP()
-        
+        cep.length == 0
+
     }
+
+    var botao = document.querySelector(".botao-submit")
+    if (cep.length <= 7){
+
+        alert("Digite um cep!")
+        document.querySelector(".botao-submit").classList.add("teste1")
+
+    }if(cep.length >= 7) {
+        document.querySelector(".botao-submit").classList.add("teste2")
+    }
+
+    // console.log(cep.length);
     
-    }
+
+
+
+}
+
+
+
+
 
 document.querySelector(".input-cep").addEventListener("focusout", buscaCep);
-
-
 
 
 
@@ -74,10 +93,10 @@ function proxImagem() {
 
 }
 
-    setInterval(function() {
-        
-        proxImagem()
-    }, 3500)
+setInterval(function () {
+
+    proxImagem()
+}, 3500)
 
 
 
