@@ -74,10 +74,10 @@ function proxImagem() {
 
 }
 
-    setInterval(function() {
+    // setInterval(function() {
         
-        proxImagem()
-    }, 3500)
+    //     proxImagem()
+    // }, 3500)
 
 
 

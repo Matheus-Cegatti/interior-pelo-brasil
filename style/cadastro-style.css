@@ -253,3 +253,82 @@ body {
     font-size: 0.7rem;
     color: #F8F0DF;
 }
+
+@media screen and (max-width: 768px) {
+    
+
+    .principal{
+           
+            width: 100%;
+        }
+    
+        .cabecalho {
+            flex-direction: column;
+    }
+
+    .logo {
+        margin: 1rem 0 1rem 1.2rem;
+    }
+    
+    .lista {
+        margin-bottom: 1.5rem;
+    }
+    
+    .lista-home {
+        margin-left: 1rem;
+    }
+
+    .link-cabecalho {
+        font-size: 1.1rem;
+    }
+
+    .link-cabecalho:hover {
+        font-size: 1rem;
+        
+    }
+    
+
+    .titulo-cadastro {
+        font-size: 2rem;
+    }
+
+    .estado-label {
+        margin-left: 5rem;
+    }
+
+    #estado-escolha {
+        width: 100%;
+    }
+
+    .botao-submit {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .galeria-principal {
+        height: 250px;
+        width: 100vw;
+    }
+
+    .texto-carrossel {
+        font-size: 0.8rem;
+    }
+
+    .imagem {
+        width: 90%;
+        margin-left: 0;
+        height: 57vh;
+    }
+
+
+    
+    .imagem-rodape{
+        width: 30%;
+    }
+    
+    .texto-rodape {
+        font-size: 1.1rem;
+    }
+    
+    }
+
