@@ -1,6 +1,6 @@
-body {
+.container {
     background-color: #CDC2AE;
-
+    height: 100vh;
 }
 
 
@@ -173,7 +173,7 @@ body {
 
 .carrosel-principal {
     margin: 0 auto;
-    max-width: 500px;
+    /* max-width: 500px; */
     padding: 1rem;
     position: relative;
 }
@@ -199,11 +199,11 @@ body {
 
 .imagem {
     height: 37vh;
-    margin-left: 20%;
+    margin-left: 25%;
     opacity: 0;
     position: absolute;
     transition: opacity 700ms;
-    width: 20vw;
+    width: 30vw;
 
 }
 
@@ -301,6 +301,10 @@ body {
         width: 93%;
     }
 
+    .rodape {
+        height: 62%;
+    }
+
     .imagem-rodape {
         width: 30%;
     }
@@ -346,10 +350,17 @@ body {
         width: 100%;
     }
 
+    .imagens-mes {
+        height: 100%;
+        width: 100%;
+    }
+
     .carrosel-principal {
         align-items: center;
         display: flex;
         height: 50vh;
+        /* padding-bottom: 2.5rem; */
+        width: 100%;
     }
 
     .texto-carrossel {
@@ -363,11 +374,17 @@ body {
     }
 
     .imagem {
-        height: 43vh;
+        /* height: 28vh;
         margin: 1rem;
-        width: 25vw;
+        width: 25vw; */
         /* bottom: 34%;
         left: -4%; */
+        bottom: 15%;
+        width: 30vw;
+    }
+
+    .rodape {
+        height: 80%;
     }
 
     .imagem-rodape {
