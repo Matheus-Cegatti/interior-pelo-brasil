@@ -1,5 +1,6 @@
 # interior-pelo-brasil
 
+https://matheus-cegatti.github.io/interior-pelo-brasil/
 
 Primeiro projeto com o objetivo de aprimorar o conhecimento em HTML e CSS e praticar o JavaScript.
 
@@ -26,7 +27,7 @@ E por fim deixei o site responsivo para celulares e tablet.
 ![imagem com site responsivo](https://user-images.githubusercontent.com/111694128/186995706-5a80d6ee-a683-4d5b-bf31-c5a415e0bce3.png)
 
 
- O pequeno esqueleto que fiz no primeiro dia e tentei seguir pra chegar no resultado final
+ O pequeno esqueleto que fiz no primeiro dia e tentei seguir para chegar no resultado final
  
 1. **[X]** Criar cabeçalho com Home e Cadastro de Cidades.
 2. **[X]** Colocar titulo de Principais Cidades do mês.
