@@ -315,9 +315,9 @@ body {
     }
 
     .imagem {
-        width: 90%;
+        width: 93%;
         margin-left: 0;
-        height: 57vh;
+        height: 30vh;
     }
 
 
@@ -332,3 +332,51 @@ body {
     
     }
 
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .principal{
+           
+            width: 100%;
+        }
+    
+        .cabecalho {
+            flex-direction: column;
+    }
+
+    .logo {
+        margin: 1rem 0 1rem 1.2rem;
+    }
+    
+    .lista {
+        margin-bottom: 1.5rem;
+    }
+    
+    .lista-home {
+        margin-left: 1rem;
+    }
+
+    .link-cabecalho {
+        font-size: 1.1rem;
+    }
+
+    .link-cabecalho:hover {
+        font-size: 1rem;
+        
+    }
+
+    #estado-escolha {
+        width: 100%;
+    }
+        
+        .imagem {
+            width: 50vw;
+            margin-left: 0;
+        }
+
+        .imagem-rodape {
+            width: 20%;
+        }
+    
+        .texto-rodape {
+            font-size: 1.2rem;
+        }
+    }
