@@ -1,6 +1,6 @@
 # interior-pelo-brasil
 
-https://matheus-cegatti.github.io/interior-pelo-brasil/
+https://interior-pelo-brasil.vercel.app/
 
 Primeiro projeto com o objetivo de aprimorar o conhecimento em HTML e CSS e praticar o JavaScript.
 
